@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehndi Service</title>
+    <link rel="stylesheet" href="mehndi2.css">
+     <!-- Font Awesome for social media icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Elegant Mehndi Art</h1>
+        <p>Your hands deserve the best artistry!</p>
+        <a href="#services" class="btn">Explore Our Services</a>
+    </header>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Bridal Mehndi</h3>
+            <p> On your wedding day, every detail matters. Our Bridal Mehndi services transform your hands and feet into canvases of intricate, mesmerizing art. With designs as unique as your love story, we celebrate tradition, elegance, and artistry, making your special day unforgettable.</p>
+        </div>
+        <div class="service-item">
+            <h3>Party Mehndi</h3>
+            <p>Whether it’s a festive gathering, family event, or casual celebration, our Party Mehndi designs bring an extra touch of elegance and charm to any occasion. We craft designs that suit the mood and theme of your event, ensuring your mehndi is as unique and memorable as your celebration.</p>
+        </div>
+        <div class="service-item">
+            <h3>Customized Designs</h3>
+            <p>Your mehndi should be as unique as you are! Our Customized Mehndi Designs let you express your personal style, preferences, and story through beautiful, one-of-a-kind artistry. Perfect for brides, guests, or anyone looking to make a statement, our customized designs are tailored to your vision.
+
+            </p>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <div class="gallery-item">
+                <img src="mehndi.jpeg" alt="Mehndi Design 1" onclick="openLightbox(this)">
+                <a href="mehndi.jpeg" download="Mehndi Design 1" class="download-btn">Download</a>
+            </div>
+            <div class="gallery-item">
+                <img src="mehndi2.jpeg" alt="Mehndi Design 2" onclick="openLightbox(this)">
+                <a href="image2.jpg" download="Mehndi Design 2" class="download-btn">Download</a>
+            </div>
+            <div class="gallery-item">
+                <img src="mehndi3.jpeg" alt="Mehndi Design 3" onclick="openLightbox(this)">
+                <a href="image3.jpg" download="Mehndi Design 3" class="download-btn">Download</a>
+            </div>
+        </div>
+    </section>
+    <!-- Lightbox for Zoom Effect -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" alt="Zoomed Image">
+</div>
+
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <blockquote>"The designs were stunning! Highly recommend."</blockquote>
+        <blockquote>"The best mehndi artist I've experienced!"</blockquote>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>For bookings and inquiries, reach out to us:</p>
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="mailto:priyanshigautam2246@gmail.com" class="fas fa-envelope"></a>
+            <a href="https://www.instagram.com/adityagtam/" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://youtube.com/@aditya_official237?si=o9Wt7LVXvYapYdrU" target="_blank" class="fab fa-youtube"></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Elegant Mehndi Art. All rights reserved.</p>
+    </footer>
+    <script src="mehndi.js"></script>
+</body>
+</html>
